@@ -1,0 +1,21 @@
+.nav {
+    &__ul {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+    }
+
+    &__li {
+        flex-shrink: 0;
+        margin-right: 10px;
+        a {
+            font-size: 1.6rem;
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            background-color: $gray-background;
+            border-radius: 20px;
+        }
+    }
+}

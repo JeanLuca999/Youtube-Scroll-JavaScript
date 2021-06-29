@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import './variables';
+@import './header-styles';
+@import './nav-styles';
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: $black-background;
+    font-family: "Roboto", sans-serif;
+}
+

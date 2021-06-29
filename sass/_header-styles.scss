@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 1px solid hsl(0, 0%, 20%);
+
+    &__logo-container {
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+
+    .iconify {
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    &__icons-container {
+        .iconify {
+            margin-right: 10px;
+        }
+    }
+}
