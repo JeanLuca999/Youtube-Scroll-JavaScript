@@ -1,4 +1,6 @@
 .nav {
+    padding: 10px 0;
+    border-bottom: 1px solid hsl(0, 0%, 20%);
     &__ul {
         display: flex;
         flex-direction: row;

@@ -1,0 +1,29 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    padding: 5px 10px;
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    border: 1px solid $gray-background;
+
+    &__icons-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .icon {
+        color: white;
+        width: 50px;
+        font-size: 2rem;
+        text-align: center;
+        &:nth-child(3) {
+            font-size: 3.5rem;
+        }
+    }
+}
+
