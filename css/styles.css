@@ -55,6 +55,12 @@
   border-radius: 20px;
 }
 
+@media screen and (min-width: 600px) {
+  .nav__ul {
+    justify-content: center;
+  }
+}
+
 .main {
   padding-top: 20px;
 }
@@ -66,6 +72,7 @@
   border-right: 1px solid #373737;
   border-left: 1px solid #373737;
   border-bottom: 1px solid #373737;
+  margin-top: 10px;
 }
 
 .main__video figure {
@@ -119,6 +126,7 @@
   width: 100vw;
   padding: 5px 10px;
   border: 1px solid #373737;
+  background-color: #181818;
 }
 
 .footer h4 {
