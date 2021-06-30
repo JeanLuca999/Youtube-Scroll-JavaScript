@@ -27,7 +27,7 @@ window.addEventListener('scroll', () => {
     let videoViews = getViews()
     let day = getDay()
 
-    if(window.scrollY > lastScrollValue+300) {
+    if(window.scrollY > lastScrollValue+200) {
         lastScrollValue = window.scrollY
         mainSection.innerHTML += cardVideo(userID,thumbID, videoViews, day)
     }
